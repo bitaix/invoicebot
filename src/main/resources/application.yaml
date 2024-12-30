@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: invoice-bot
+  banner:
+    location: classpath:banner.txt
+
+de:
+  bitaix:
+    invoice-bot:
+      attach-root-dir: /data/
+      source-mailaddress: wp1063032-invoicebot
+      source-password: 34r87wz4oiufh4w!
+      protocol: imap
+      imap-host: wp1063032.mail.server-he.de
+      imap-port: 993
+      imap-ssl-enable: true
+
